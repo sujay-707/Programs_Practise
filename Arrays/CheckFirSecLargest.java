@@ -3,7 +3,7 @@ public class CheckFirSecLargest {
         int arr[] = { 10, 5, 6, 8 };
 
         int largest = arr[0];
-        int secLargest = Interger.MIN_VALUE;
+        int secLargest = Integer.MIN_VALUE;
 
         for (int i = 1; i < arr.length; i++) {
             if (arr[i] > largest) {
